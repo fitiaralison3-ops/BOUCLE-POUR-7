@@ -1,0 +1,23 @@
+suite de Fibonacci  -  16.03.2026
+
+******************************************
+
+******************************************
+
+1   FONCTIONS_UTILISEES
+2   VARIABLES
+3     a EST_DU_TYPE NOMBRE
+4     b EST_DU_TYPE NOMBRE
+5     c EST_DU_TYPE NOMBRE
+6     i EST_DU_TYPE NOMBRE
+7   DEBUT_ALGORITHME
+8     b PREND_LA_VALEUR 1
+9     c PREND_LA_VALEUR 0
+10    POUR i ALLANT_DE 2 A 100
+11      DEBUT_POUR
+12      a PREND_LA_VALEUR b+c
+13      b PREND_LA_VALEUR c
+14      c PREND_LA_VALEUR a
+15      AFFICHER a
+16      FIN_POUR
+17  FIN_ALGORITHME
